@@ -43,7 +43,7 @@
           Submitted by <%=
           campground.author?campground.author.username:'UserNotFound'%>
         </li>
-        <li class="list-group-item">$<%= campground.price%>/night</li>
+        <li class="list-group-item">$<%= campground.price%>/Meal</li>
       </ul>
       <% if( currentUser && campground.author &&
       campground.author.equals(currentUser._id)) {%>
